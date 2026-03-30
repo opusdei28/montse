@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¿Conoces a Montse Grases?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section id="start-screen" class="screen active">
+        <h1>¿Conoces a Montse Grases?</h1>
+        <figure class="hero-shot">
+          <img
+            src="https://live.staticflickr.com/7720/17113918330_64a8463504_b.jpg"
+            alt="Fotografia de Montserrat Grases"
+            loading="lazy"
+          />
+          <figcaption>Imagen del album "Montse Grases, una chica como las demas" (Flickr Opus Dei)</figcaption>
+        </figure>
+        <p class="lead">
+          Repasa la vida de Montserrat Grases con preguntas rapidas, puntos por velocidad y podio final.
+        </p>
+        <form id="start-form" class="start-form">
+          <label for="player-name">Tu nombre</label>
+          <input id="player-name" name="playerName" maxlength="18" placeholder="Escribe tu apodo" required />
+          <button type="submit" class="btn btn-primary">Comenzar</button>
+        </form>
+        <p id="load-status" class="load-status" aria-live="polite"></p>
+        <p class="source-note">
+          Fuente principal:
+          <a href="https://opusdei.org/es-es/montse-grases/" target="_blank" rel="noreferrer">opusdei.org/es-es/montse-grases</a>
+        </p>
+      </section>
+
+      <section id="quiz-screen" class="screen">
+        <header class="hud">
+          <div>
+            <p class="hud-label">Jugador</p>
+            <p id="hud-player" class="hud-value">-</p>
+          </div>
+          <div>
+            <p class="hud-label">Puntos</p>
+            <p id="hud-score" class="hud-value">0</p>
+          </div>
+          <div>
+            <p class="hud-label">Tiempo</p>
+            <p id="hud-timer" class="hud-value">20</p>
+          </div>
+        </header>
+
+        <div class="question-meta">
+          <p id="question-count">Pregunta 1 / 10</p>
+          <div class="progress-track">
+            <div id="progress-bar" class="progress-bar"></div>
+          </div>
+        </div>
+
+        <h2 id="question-text" class="question-text"></h2>
+        <figure class="question-shot">
+          <img id="question-image" src="" alt="Imagen de Montse Grases" loading="lazy" />
+          <figcaption id="question-image-caption">Imagen de referencia de opusdei.org</figcaption>
+        </figure>
+        <div id="answers" class="answers-grid"></div>
+
+        <p id="round-feedback" class="round-feedback" aria-live="polite"></p>
+        <button id="next-btn" class="btn btn-secondary" hidden>Siguiente</button>
+      </section>
+
+      <section id="result-screen" class="screen">
+        <p class="eyebrow">Fin del juego</p>
+        <h2 id="result-title">Gran repaso</h2>
+        <p id="result-score" class="result-score"></p>
+
+        <div class="podium-card">
+          <p class="podium-title">Podio de hoy</p>
+          <ol id="podium-list"></ol>
+        </div>
+
+        <button id="restart-btn" class="btn btn-primary">Jugar otra vez</button>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
