@@ -1,161 +1,276 @@
 [
   {
     "text": "¿En qué ciudad nació Montse Grases?",
-    "options": ["Barcelona", "Madrid", "Valencia", "Sevilla"],
+    "options": [
+      "Barcelona",
+      "Madrid",
+      "Valencia",
+      "Sevilla"
+    ],
     "answer": "Barcelona",
     "image": "https://live.staticflickr.com/8742/17301477995_7c10559dab_b.jpg",
     "imageCaption": "Montse en Barcelona (album de Flickr Opus Dei)"
   },
   {
     "text": "¿En qué fecha nació Montse?",
-    "options": ["10 de julio de 1941", "26 de marzo de 1941", "24 de diciembre de 1957", "10 de noviembre de 1958"],
+    "options": [
+      "10 de julio de 1941",
+      "26 de marzo de 1942",
+      "24 de diciembre de 1957",
+      "10 de noviembre de 1958"
+    ],
     "answer": "10 de julio de 1941",
     "image": "https://live.staticflickr.com/7713/17299632652_eecf34f5e9_b.jpg",
     "imageCaption": "Retrato juvenil de Montse"
   },
   {
     "text": "¿Cuál era su nombre completo?",
-    "options": ["María Montserrat Grases García", "Montserrat Josefa Grases Ruiz", "María Montserrat García Grases", "Montserrat Teresa Grases"],
+    "options": [
+      "María Montserrat Grases García",
+      "Montserrat Josefa Grases Ruiz",
+      "María Montserrat García Grases",
+      "Montserrat Teresa Grases"
+    ],
     "answer": "María Montserrat Grases García",
     "image": "https://live.staticflickr.com/8744/16678999114_5e9f6ebd6e_b.jpg",
     "imageCaption": "Montse Grases, una chica como las demas"
   },
   {
     "text": "¿Cuántos hermanos tenía Montse Grases?",
-    "options": ["Ocho hermanos", "Tres hermanos", "Diez hermanos", "Ninguno"],
+    "options": [
+      "Ocho hermanos",
+      "Tres hermanos",
+      "Diez hermanos",
+      "Ninguno"
+    ],
     "answer": "Ocho hermanos",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/familiagrases_20160901165223685759.jpg",
     "imageCaption": "Imagen vinculada a la familia Grases"
   },
   {
-    "text": "¿Qué lugar ocupaba entre los hijos de su familia?",
-    "options": ["La segunda", "La mayor", "La menor", "La quinta"],
+    "text": "¿Qué lugar ocupaba Montse entre sus hermanos?",
+    "options": [
+      "La segunda",
+      "La mayor",
+      "La menor",
+      "La quinta"
+    ],
     "answer": "La segunda",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/montsegrasesconsumadre_20170804170655266059.jpg",
     "imageCaption": "Montse en contexto familiar"
   },
   {
     "text": "¿Cómo se llamaban sus padres?",
-    "options": ["Manuel Grases y Manolita García", "Miguel Grases y María López", "Joaquín Grases y Ana García", "Pedro García y Luisa Grases"],
+    "options": [
+      "Manuel Grases y Manolita García",
+      "Miguel Grases y María López",
+      "Joaquín Grases y Ana García",
+      "Pedro García y Luisa Grases"
+    ],
     "answer": "Manuel Grases y Manolita García",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/s3direct/d0f08114-66e9-49c7-81b8-06e8957378ec.jpg",
     "imageCaption": "Recuerdo familiar de Montse"
   },
   {
     "text": "¿Qué estudios alternó Montse con el bachillerato?",
-    "options": ["Piano", "Arquitectura", "Medicina", "Periodismo"],
+    "options": [
+      "Piano",
+      "Arquitectura",
+      "Medicina",
+      "Periodismo"
+    ],
     "answer": "Piano",
     "image": "https://live.staticflickr.com/8800/17275501556_ea6af557f1_b.jpg",
     "imageCaption": "Etapa de juventud y estudios"
   },
   {
-    "text": "¿En qué centro ingresó después del bachillerato?",
-    "options": ["Escuela Profesional para la Mujer de la Diputación de Barcelona", "Universidad de Barcelona", "Conservatorio del Liceo", "Escuela de Bellas Artes"],
+    "text": "¿En qué institución se matriculó Montse tras finalizar sus estudios de bachillerato?",
+    "options": [
+      "Escuela Profesional para la Mujer de la Diputación de Barcelona",
+      "Universidad de Barcelona",
+      "Conservatorio del Liceo",
+      "Escuela de Bellas Artes"
+    ],
     "answer": "Escuela Profesional para la Mujer de la Diputación de Barcelona",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/vida-de-montse_20140308123203089294.jpg",
     "imageCaption": "Material biografico sobre su formacion"
   },
   {
-    "text": "¿Qué danzas tradicionales disfrutaba especialmente?",
-    "options": ["Sardanas", "Jotas", "Sevillanas", "Muñeiras"],
+    "text": "¿Qué baile tradicional catalán era el preferido de Montse?",
+    "options": [
+      "Sardanas",
+      "Jotas",
+      "Sevillanas",
+      "Muñeiras"
+    ],
     "answer": "Sardanas",
     "image": "https://live.staticflickr.com/7704/17113921570_d50b70c7b4_b.jpg",
     "imageCaption": "Montse en su ambiente juvenil catalan"
   },
   {
-    "text": "¿Qué deportes practicaba Montse según sus amigas?",
-    "options": ["Tenis y ping-pong", "Rugby y boxeo", "Béisbol y hockey hielo", "Esgrima y remo"],
+    "text": "¿Qué deportes practicaba Montse?",
+    "options": [
+      "Tenis y ping-pong",
+      "Rugby y boxeo",
+      "Béisbol y hockey hielo",
+      "Esgrima y remo"
+    ],
     "answer": "Tenis y ping-pong",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/Montse-Grases_20160503114305605928.jpg",
     "imageCaption": "Articulo sobre su pasion por el deporte"
   },
   {
-    "text": "¿Qué hacía con compañeras en zonas pobres de Barcelona?",
-    "options": ["Daba catequesis a niños", "Vendía entradas de teatro", "Organizaba carreras", "Impartía clases de piano"],
+    "text": "¿Qué actividades de voluntariado llevaba a cabo Montse?",
+    "options": [
+      "Daba catequesis a niños",
+      "Vendía entradas de teatro",
+      "Organizaba carreras",
+      "Impartía clases de piano"
+    ],
     "answer": "Daba catequesis a niños",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/Barcelona-Montse-Grases-numeraria-Opus-Dei_20160416200033319392.jpg",
     "imageCaption": "Montse, referente para la juventud"
   },
   {
-    "text": "¿Qué solía llevar a veces a los niños de catequesis?",
-    "options": ["Juguetes o caramelos", "Ropa deportiva", "Cuadernos de dibujo", "Entradas de cine"],
-    "answer": "Juguetes o caramelos",
+    "text": "¿Qué solía llevar a los niños de la catequesis?",
+    "options": [
+      "Juguetes y caramelos",
+      "Ropa deportiva",
+      "Cuadernos de dibujo",
+      "Entradas de cine"
+    ],
+    "answer": "Juguetes y caramelos",
     "image": "https://live.staticflickr.com/8690/17300995461_4cfec1cf45_b.jpg",
     "imageCaption": "Imagen de su trato cercano y alegre"
   },
   {
-    "text": "¿En qué año conoció Montse el Opus Dei?",
-    "options": ["1954", "1950", "1957", "1959"],
+    "text": "¿En qué año tuvo Montse su primer contacto con el Opus Dei?",
+    "options": [
+      "1954",
+      "1950",
+      "1957",
+      "1959"
+    ],
     "answer": "1954",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/s3direct/6fad7613-c76a-4090-a387-d896541e23aa.jpg",
     "imageCaption": "Devocion y vida espiritual de Montse"
   },
   {
-    "text": "¿Qué fecha pidió la admisión en el Opus Dei?",
-    "options": ["24 de diciembre de 1957", "10 de julio de 1957", "26 de marzo de 1959", "1 de enero de 1958"],
+    "text": "¿En qué fecha pidió la admisión en el Opus Dei?",
+    "options": [
+      "24 de diciembre de 1957",
+      "10 de julio de 1957",
+      "26 de marzo de 1959",
+      "1 de enero de 1958"
+    ],
     "answer": "24 de diciembre de 1957",
     "image": "https://live.staticflickr.com/7701/17275498306_213da3f185_b.jpg",
     "imageCaption": "Montse en su etapa de decision vocacional"
   },
   {
-    "text": "¿Qué medio ayudó a Montse a consolidar su vida espiritual?",
-    "options": ["Frecuentar el centro Llar", "Ir a un internado en Roma", "Estudiar teología en la universidad", "Hacer peregrinaciones semanales"],
+    "text": "¿Qué ayudó a madurar la vida de oración de Montse?",
+    "options": [
+      "Frecuentar el centro Llar",
+      "Ir a un internado en Roma",
+      "Estudiar teología en la universidad",
+      "Hacer peregrinaciones semanales"
+    ],
     "answer": "Frecuentar el centro Llar",
     "image": "https://i.ytimg.com/vi/VyqXMDczkzY/maxresdefault.jpg",
     "imageCaption": "Documental sobre su camino espiritual"
   },
   {
-    "text": "¿En qué mes de 1957 comenzaron las molestias en su pierna?",
-    "options": ["Diciembre", "Marzo", "Julio", "Octubre"],
+    "text": "¿En qué mes de 1957 se manifestaron los primeros dolores en su pierna?",
+    "options": [
+      "Diciembre",
+      "Marzo",
+      "Julio",
+      "Octubre"
+    ],
     "answer": "Diciembre",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/article/2025/5/hospital20250515111417452016.jpg",
     "imageCaption": "Contexto de enfermedad y esperanza"
   },
   {
-    "text": "¿En qué parte del cuerpo tenía el sarcoma de Ewing?",
-    "options": ["En el fémur", "En el hombro", "En el pulmón", "En la mano"],
+    "text": "¿En qué parte del cuerpo desarrolló Montse el sarcoma de Ewing?",
+    "options": [
+      "En el fémur",
+      "En el hombro",
+      "En el pulmón",
+      "En la mano"
+    ],
     "answer": "En el fémur",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/article/2023/11/shutterstock_76816031220231103114034584666.jpg",
     "imageCaption": "Pregunta sobre su enfermedad"
   },
   {
     "text": "¿Qué rasgo destacó durante su enfermedad?",
-    "options": ["Alegría contagiosa", "Aislamiento constante", "Silencio absoluto", "Rechazo a las visitas"],
+    "options": [
+      "Alegría contagiosa",
+      "Aislamiento constante",
+      "Silencio absoluto",
+      "Rechazo a las visitas"
+    ],
     "answer": "Alegría contagiosa",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/article/2025/5/dan-counsell-Twaiqn6RjDQ-unsplash20250505105256953092.jpg",
     "imageCaption": "Montse, amiga que ayuda en cualquier circunstancia"
   },
   {
-    "text": "¿Cómo transformaba el sufrimiento, según los testimonios?",
-    "options": ["En oración y apostolado", "En rabia y resignación", "En silencio y distancia", "En actividad deportiva"],
+    "text": "¿Cómo transformaba Montse el sufrimiento?",
+    "options": [
+      "En oración y apostolado",
+      "En rabia y resignación",
+      "En silencio y distancia",
+      "En actividad deportiva"
+    ],
     "answer": "En oración y apostolado",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/monseizq_20150704203027503851.jpg",
     "imageCaption": "Anotaciones de oracion en sus ultimos meses"
   },
   {
     "text": "¿En qué fecha falleció Montse Grases?",
-    "options": ["26 de marzo de 1959", "10 de julio de 1959", "24 de diciembre de 1959", "17 de mayo de 2014"],
+    "options": [
+      "26 de marzo de 1959",
+      "10 de julio de 1959",
+      "24 de diciembre de 1959",
+      "17 de mayo de 2014"
+    ],
     "answer": "26 de marzo de 1959",
     "image": "https://live.staticflickr.com/7672/16681204583_3f2483dfd3_b.jpg",
     "imageCaption": "Montse en sus ultimos anos"
   },
   {
     "text": "¿Qué día litúrgico coincidió con su fallecimiento?",
-    "options": ["Jueves Santo", "Navidad", "Pentecostés", "Todos los Santos"],
+    "options": [
+      "Jueves Santo",
+      "Navidad",
+      "Pentecostés",
+      "Todos los Santos"
+    ],
     "answer": "Jueves Santo",
     "image": "https://live.staticflickr.com/7726/17094008447_9d257d2cfe_b.jpg",
     "imageCaption": "Recuerdo de su entrega cristiana"
   },
   {
     "text": "¿Qué edad tenía al fallecer?",
-    "options": ["Poco menos de 18 años", "21 años", "16 años exactos", "25 años"],
+    "options": [
+      "Poco menos de 18 años",
+      "21 años",
+      "16 años exactos",
+      "25 años"
+    ],
     "answer": "Poco menos de 18 años",
     "image": "https://live.staticflickr.com/7673/16681206643_40454c4a4c_b.jpg",
     "imageCaption": "Montse, en plena juventud"
   },
   {
-    "text": "¿Dónde fue sepultada inicialmente?",
-    "options": ["En el cementerio del Sudoeste de Barcelona", "En Montserrat", "En la catedral de Barcelona", "En Madrid"],
+    "text": "¿Cuándo falleció Montse, dónde fue enterrada?",
+    "options": [
+      "En el cementerio del Sudoeste de Barcelona",
+      "En Montserrat",
+      "En la catedral de Barcelona",
+      "En Madrid"
+    ],
     "answer": "En el cementerio del Sudoeste de Barcelona",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/montse-grases-oratorio-bonaigua_20210713163207443753.jpg",
     "imageCaption": "Memoria de Montse en Barcelona"
@@ -174,8 +289,13 @@
   },
   {
     "text": "¿Qué Papa la declaró venerable en 2016?",
-    "options": ["Papa Francisco", "Benedicto XVI", "San Juan Pablo II", "Pablo VI"],
-    "answer": "Papa Francisco",
+    "options": [
+      "Francisco",
+      "Benedicto XVI",
+      "Juan Pablo II",
+      "Pablo VI"
+    ],
+    "answer": "Francisco",
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/Montse-Grases_venerable-Papa-Francisco-Opus-Dei_20160427103840151384.jpg",
     "imageCaption": "Decreto de venerable en 2016"
   }
