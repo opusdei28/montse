@@ -582,7 +582,8 @@ clearImageBtn.addEventListener("click", () => {
     return;
   }
 
-  syncQuestion({ ...question, image: "", imageCaption: imageCaptionInput.value.trim() || "Imagen de referencia de opusdei.org" });
+  imageCaptionInput.value = "";
+  syncQuestion({ ...question, image: "", imageCaption: "" });
   imageFileInput.value = "";
   imageFormStatus.textContent = "Se elimino la imagen de la pregunta.";
   imageFormStatus.style.color = "#76f3b8";
