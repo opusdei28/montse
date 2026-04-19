@@ -1,10 +1,10 @@
 const QUESTION_TIME = 10;
-const LEADERBOARD_KEY = "montseQuizLeaderboard";
 const QUESTION_BANK_KEY = "montseQuizQuestionBank";
 const COMPLETION_COUNT_KEY = "montseQuizCompletionCount";
 const QUESTIONS_PATH = "questions.json";
 const QUESTIONS_PER_GAME = 10;
 const MAX_IMAGE_SIZE_BYTES = 2 * 1024 * 1024;
+const ADMIN_PASSWORD = "montse-admin";
 
 const screens = {
   start: document.getElementById("start-screen"),
@@ -16,8 +16,9 @@ const startForm = document.getElementById("start-form");
 const startBtn = startForm.querySelector("button[type='submit']");
 const loadStatus = document.getElementById("load-status");
 const completionCount = document.getElementById("completion-count");
-const playerInput = document.getElementById("player-name");
-const playerHud = document.getElementById("hud-player");
+const adminToggleBtn = document.getElementById("admin-toggle-btn");
+const adminStatus = document.getElementById("admin-status");
+const assetPanel = document.getElementById("asset-panel");
 const scoreHud = document.getElementById("hud-score");
 const timerHud = document.getElementById("hud-timer");
 const questionCount = document.getElementById("question-count");
@@ -32,7 +33,6 @@ const questionShot = questionImage.closest(".question-shot");
 const resultTitle = document.getElementById("result-title");
 const resultScore = document.getElementById("result-score");
 const restartBtn = document.getElementById("restart-btn");
-const podiumList = document.getElementById("podium-list");
 const resultCompletionCount = document.getElementById("result-completion-count");
 const imageForm = document.getElementById("image-form");
 const imageQuestionSelect = document.getElementById("image-question-select");
@@ -53,7 +53,6 @@ const customPreviewCaption = document.getElementById("custom-preview-caption");
 
 let questionBank = [];
 let gameQuestions = [];
-let playerName = "";
 let score = 0;
 let currentQuestion = 0;
 let timeLeft = QUESTION_TIME;
@@ -61,6 +60,7 @@ let timer = null;
 let locked = false;
 let audioCtx = null;
 let completedGames = 0;
+let isAdminMode = false;
 
 function showScreen(name) {
   Object.values(screens).forEach((screen) => screen.classList.remove("active"));
@@ -255,19 +255,6 @@ function evaluateAnswer(selectedButton) {
   nextBtn.hidden = false;
 }
 
-function getLeaderboard() {
-  const raw = localStorage.getItem(LEADERBOARD_KEY);
-  if (!raw) return [];
-
-  try {
-    const parsed = JSON.parse(raw);
-    if (!Array.isArray(parsed)) return [];
-    return parsed;
-  } catch {
-    return [];
-  }
-}
-
 function getStoredQuestionBank() {
   const raw = localStorage.getItem(QUESTION_BANK_KEY);
   if (!raw) return null;
@@ -415,28 +402,15 @@ function downloadQuestionsJson() {
   URL.revokeObjectURL(url);
 }
 
-function saveOnLeaderboard(name, points) {
-  const data = getLeaderboard();
-  data.push({ name, points, playedAt: Date.now() });
-  data.sort((a, b) => b.points - a.points);
-  const top5 = data.slice(0, 5);
-  localStorage.setItem(LEADERBOARD_KEY, JSON.stringify(top5));
-  return top5;
-}
-
-function renderPodium(data) {
-  podiumList.innerHTML = "";
-  data.forEach((entry, index) => {
-    const li = document.createElement("li");
-    const medal = index === 0 ? "🥇" : index === 1 ? "🥈" : index === 2 ? "🥉" : "⭐";
-    li.textContent = `${medal} ${entry.name} - ${entry.points} pts`;
-    podiumList.appendChild(li);
-  });
+function renderAdminState() {
+  assetPanel.hidden = !isAdminMode;
+  adminStatus.textContent = isAdminMode
+    ? "Modo administrador activo."
+    : "El editor de preguntas esta oculto.";
 }
 
 function finishGame() {
   clearInterval(timer);
-  const top = saveOnLeaderboard(playerName, score);
   completedGames += 1;
   saveCompletedGames();
   renderCompletedGames();
@@ -444,8 +418,7 @@ function finishGame() {
   const ratio = Math.round((score / maxScore) * 100);
 
   resultTitle.textContent = ratio >= 75 ? "Nivel experto" : ratio >= 45 ? "Buen recorrido" : "Sigue practicando";
-  resultScore.textContent = `${playerName}, cerraste con ${score} puntos (${ratio}% de rendimiento).`;
-  renderPodium(top);
+  resultScore.textContent = `Has cerrado la partida con ${score} puntos (${ratio}% de rendimiento).`;
   playFinalSound();
   showScreen("result");
 }
@@ -526,6 +499,7 @@ async function loadQuestions() {
     populateQuestionSelect();
     resetEditorForm();
     renderCompletedGames();
+    renderAdminState();
     refreshQuestionBankStatus();
   } catch (error) {
     loadStatus.textContent = "No se pudieron cargar las preguntas. Revisa questions.json.";
@@ -539,9 +513,20 @@ startForm.addEventListener("submit", (event) => {
   if (questionBank.length < QUESTIONS_PER_GAME) return;
 
   ensureAudioContext();
-  playerName = playerInput.value.trim() || "Invitado";
-  playerHud.textContent = playerName;
   resetGame();
+});
+
+adminToggleBtn.addEventListener("click", () => {
+  const password = window.prompt("Contrasena de administrador");
+  if (password !== ADMIN_PASSWORD) {
+    adminStatus.textContent = "Acceso denegado.";
+    adminStatus.style.color = "#ff9c96";
+    return;
+  }
+
+  isAdminMode = !isAdminMode;
+  adminStatus.style.color = "#76f3b8";
+  renderAdminState();
 });
 
 imageQuestionSelect.addEventListener("change", () => {
@@ -658,7 +643,7 @@ nextBtn.addEventListener("click", nextQuestion);
 
 restartBtn.addEventListener("click", () => {
   showScreen("start");
-  playerInput.focus();
+  startBtn.focus();
 });
 
 loadQuestions();

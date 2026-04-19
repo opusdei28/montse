@@ -207,6 +207,17 @@ input[type="file"] {
   font-size: 0.95rem;
 }
 
+.admin-entry {
+  margin-top: 18px;
+}
+
+.admin-status {
+  min-height: 20px;
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .asset-panel {
   margin-top: 22px;
   padding: 18px;
@@ -266,7 +277,7 @@ input[type="file"] {
 
 .hud {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   margin-bottom: 16px;
 }
@@ -361,26 +372,6 @@ input[type="file"] {
   min-height: 24px;
   margin: 14px 0 0;
   font-weight: 600;
-}
-
-.podium-card {
-  margin: 14px 0 20px;
-  border: 1px solid var(--card-border);
-  border-radius: 16px;
-  background: var(--card);
-  padding: 14px;
-}
-
-.podium-title {
-  margin: 0 0 10px;
-  color: var(--muted);
-}
-
-#podium-list {
-  margin: 0;
-  padding-left: 20px;
-  display: grid;
-  gap: 8px;
 }
 
 .result-score {

@@ -25,17 +25,20 @@
           <figcaption>Imagen del album "Montse Grases, una chica como las demas" (Flickr Opus Dei)</figcaption>
         </figure>
         <p class="lead">
-          Repasa la vida de Montserrat Grases con preguntas rapidas, puntos por velocidad y podio final.
+          Repasa la vida de Montserrat Grases con preguntas rapidas y puntos por velocidad.
         </p>
         <form id="start-form" class="start-form">
-          <label for="player-name">Tu nombre</label>
-          <input id="player-name" name="playerName" maxlength="18" placeholder="Escribe tu apodo" required />
           <button type="submit" class="btn btn-primary">Comenzar</button>
         </form>
         <p id="load-status" class="load-status" aria-live="polite"></p>
         <p id="completion-count" class="completion-count" aria-live="polite"></p>
 
-        <section class="asset-panel" aria-labelledby="asset-panel-title">
+        <div class="admin-entry">
+          <button id="admin-toggle-btn" type="button" class="btn btn-secondary">Acceso administrador</button>
+          <p id="admin-status" class="admin-status" aria-live="polite"></p>
+        </div>
+
+        <section id="asset-panel" class="asset-panel" aria-labelledby="asset-panel-title" hidden>
           <div class="asset-panel-head">
             <div>
               <p class="eyebrow">Personalizacion local</p>
@@ -118,10 +121,6 @@
       <section id="quiz-screen" class="screen">
         <header class="hud">
           <div>
-            <p class="hud-label">Jugador</p>
-            <p id="hud-player" class="hud-value">-</p>
-          </div>
-          <div>
             <p class="hud-label">Puntos</p>
             <p id="hud-score" class="hud-value">0</p>
           </div>
@@ -154,11 +153,6 @@
         <h2 id="result-title">Gran repaso</h2>
         <p id="result-score" class="result-score"></p>
         <p id="result-completion-count" class="completion-count"></p>
-
-        <div class="podium-card">
-          <p class="podium-title">Podio de hoy</p>
-          <ol id="podium-list"></ol>
-        </div>
 
         <button id="restart-btn" class="btn btn-primary">Jugar otra vez</button>
       </section>
