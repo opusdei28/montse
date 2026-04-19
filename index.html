@@ -33,6 +33,82 @@
           <button type="submit" class="btn btn-primary">Comenzar</button>
         </form>
         <p id="load-status" class="load-status" aria-live="polite"></p>
+        <p id="completion-count" class="completion-count" aria-live="polite"></p>
+
+        <section class="asset-panel" aria-labelledby="asset-panel-title">
+          <div class="asset-panel-head">
+            <div>
+              <p class="eyebrow">Personalizacion local</p>
+              <h2 id="asset-panel-title">Editor de preguntas</h2>
+            </div>
+          </div>
+
+          <div class="editor-toolbar">
+            <label for="image-question-select">Editar pregunta existente</label>
+            <select id="image-question-select">
+              <option value="">Nueva pregunta</option>
+            </select>
+
+            <div class="image-actions">
+              <button id="new-question-btn" type="button" class="btn btn-secondary">Nueva pregunta</button>
+              <button id="export-questions-btn" type="button" class="btn btn-secondary">Exportar JSON</button>
+            </div>
+
+            <label for="import-questions-input">Importar `questions.json`</label>
+            <input id="import-questions-input" type="file" accept="application/json,.json" />
+          </div>
+
+          <form id="image-form" class="image-form">
+            <label for="question-text-input">Pregunta</label>
+            <input id="question-text-input" name="questionText" maxlength="180" placeholder="Escribe el enunciado" required />
+
+            <label for="option-1-input">Opcion 1</label>
+            <input id="option-1-input" class="option-input" maxlength="120" required />
+
+            <label for="option-2-input">Opcion 2</label>
+            <input id="option-2-input" class="option-input" maxlength="120" required />
+
+            <label for="option-3-input">Opcion 3</label>
+            <input id="option-3-input" class="option-input" maxlength="120" required />
+
+            <label for="option-4-input">Opcion 4</label>
+            <input id="option-4-input" class="option-input" maxlength="120" required />
+
+            <label for="answer-select">Respuesta correcta</label>
+            <select id="answer-select" required>
+              <option value="">Selecciona la correcta</option>
+              <option value="0">Opcion 1</option>
+              <option value="1">Opcion 2</option>
+              <option value="2">Opcion 3</option>
+              <option value="3">Opcion 4</option>
+            </select>
+
+            <label for="image-caption-input">Pie de foto</label>
+            <input
+              id="image-caption-input"
+              name="imageCaption"
+              maxlength="120"
+              placeholder="Describe la imagen que quieres mostrar"
+            />
+
+            <label for="image-file-input">Archivo de imagen</label>
+            <input id="image-file-input" name="imageFile" type="file" accept="image/*" />
+
+            <div class="image-actions">
+              <button type="submit" class="btn btn-primary">Guardar pregunta</button>
+              <button id="clear-image-btn" type="button" class="btn btn-secondary">Quitar imagen</button>
+              <button id="delete-question-btn" type="button" class="btn btn-secondary">Eliminar pregunta</button>
+            </div>
+          </form>
+
+          <figure class="custom-preview" id="custom-preview" hidden>
+            <img id="custom-preview-image" src="" alt="Vista previa de la imagen subida" />
+            <figcaption id="custom-preview-caption"></figcaption>
+          </figure>
+
+          <p id="image-form-status" class="load-status" aria-live="polite"></p>
+        </section>
+
         <p class="source-note">
           Fuente principal:
           <a href="https://opusdei.org/es-es/montse-grases/" target="_blank" rel="noreferrer">opusdei.org/es-es/montse-grases</a>
@@ -77,6 +153,7 @@
         <p class="eyebrow">Fin del juego</p>
         <h2 id="result-title">Gran repaso</h2>
         <p id="result-score" class="result-score"></p>
+        <p id="result-completion-count" class="completion-count"></p>
 
         <div class="podium-card">
           <p class="podium-title">Podio de hoy</p>
