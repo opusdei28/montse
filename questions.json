@@ -9,7 +9,7 @@
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/8742/17301477995_7c10559dab_b.jpg",
-    "imageCaption": { "es": "Montse en Barcelona (album de Flickr Opus Dei)", "ca": "Montse a Barcelona (àlbum de Flickr Opus Dei)" }
+    "imageCaption": { "es": "Montse en Barcelona (álbum de Flickr Opus Dei)", "ca": "Montse a Barcelona (àlbum de Flickr Opus Dei)" }
   },
   {
     "text": { "es": "¿En qué fecha nació Montse?", "ca": "En quina data va néixer la Montse?" },
@@ -33,7 +33,7 @@
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/8744/16678999114_5e9f6ebd6e_b.jpg",
-    "imageCaption": { "es": "Montse Grases, una chica como las demas", "ca": "Montse Grases, una noia com les altres" }
+    "imageCaption": { "es": "Montse Grases, una chica como las demás", "ca": "Montse Grases, una noia com les altres" }
   },
   {
     "text": { "es": "¿Cuántos hermanos tenía Montse Grases?", "ca": "Quants germans tenia la Montse Grases?" },
@@ -93,7 +93,7 @@
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/vida-de-montse_20140308123203089294.jpg",
-    "imageCaption": { "es": "Material biografico sobre su formacion", "ca": "Material biogràfic sobre la seva formació" }
+    "imageCaption": { "es": "Material biográfico sobre su formación", "ca": "Material biogràfic sobre la seva formació" }
   },
   {
     "text": { "es": "¿Qué baile tradicional catalán era el preferido de Montse?", "ca": "Quin ball tradicional català era el preferit de la Montse?" },
@@ -105,7 +105,7 @@
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/7704/17113921570_d50b70c7b4_b.jpg",
-    "imageCaption": { "es": "Montse en su ambiente juvenil catalan", "ca": "La Montse en el seu ambient juvenil català" }
+    "imageCaption": { "es": "Montse en su ambiente juvenil catalán", "ca": "La Montse en el seu ambient juvenil català" }
   },
   {
     "text": { "es": "¿Qué deportes practicaba Montse?", "ca": "Quins esports practicava la Montse?" },
@@ -117,7 +117,7 @@
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/Montse-Grases_20160503114305605928.jpg",
-    "imageCaption": { "es": "Articulo sobre su pasion por el deporte", "ca": "Article sobre la seva passió per l'esport" }
+    "imageCaption": { "es": "Artículo sobre su pasión por el deporte", "ca": "Article sobre la seva passió per l'esport" }
   },
   {
     "text": { "es": "¿Qué actividades de voluntariado llevaba a cabo Montse?", "ca": "Quines activitats de voluntariat feia la Montse?" },
@@ -153,7 +153,7 @@
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/s3direct/6fad7613-c76a-4090-a387-d896541e23aa.jpg",
-    "imageCaption": { "es": "Devocion y vida espiritual de Montse", "ca": "Devoció i vida espiritual de la Montse" }
+    "imageCaption": { "es": "Devoción y vida espiritual de Montse", "ca": "Devoció i vida espiritual de la Montse" }
   },
   {
     "text": { "es": "¿En qué fecha pidió la admisión en el Opus Dei?", "ca": "En quina data va demanar l'admissió a l'Opus Dei?" },
@@ -165,7 +165,7 @@
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/7701/17275498306_213da3f185_b.jpg",
-    "imageCaption": { "es": "Montse en su etapa de decision vocacional", "ca": "La Montse en la seva etapa de decisió vocacional" }
+    "imageCaption": { "es": "Montse en su etapa de decisión vocacional", "ca": "La Montse en la seva etapa de decisió vocacional" }
   },
   {
     "text": { "es": "¿Qué ayudó a madurar la vida de oración de Montse?", "ca": "Què va ajudar a fer madurar la vida d'oració de la Montse?" },
@@ -225,7 +225,7 @@
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/monseizq_20150704203027503851.jpg",
-    "imageCaption": { "es": "Anotaciones de oracion en sus ultimos meses", "ca": "Anotacions d'oració en els seus últims mesos" }
+    "imageCaption": { "es": "Anotaciones de oración en sus últimos meses", "ca": "Anotacions d'oració en els seus últims mesos" }
   },
   {
     "text": { "es": "¿En qué fecha falleció Montse Grases?", "ca": "En quina data va morir la Montse Grases?" },
@@ -237,7 +237,7 @@
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/7672/16681204583_3f2483dfd3_b.jpg",
-    "imageCaption": { "es": "Montse en sus ultimos anos", "ca": "La Montse en els seus últims anys" }
+    "imageCaption": { "es": "Montse en sus últimos años", "ca": "La Montse en els seus últims anys" }
   },
   {
     "text": { "es": "¿Qué día litúrgico coincidió con su fallecimiento?", "ca": "Amb quin dia litúrgic va coincidir la seva mort?" },

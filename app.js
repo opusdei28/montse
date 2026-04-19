@@ -10,22 +10,22 @@ const ui = {
   es: {
     pageTitle: "¿Conoces a Montse Grases?",
     languageLabel: "Idioma",
-    heroCaption: 'Imagen del album "Montse Grases, una chica como las demas" (Flickr Opus Dei)',
-    leadText: "Repasa la vida de Montserrat Grases con preguntas rapidas y puntos por velocidad.",
+    heroCaption: 'Imagen del álbum "Montse Grases, una chica como las demás" (Flickr Opus Dei)',
+    leadText: "Repasa la vida de Montserrat Grases con preguntas rápidas y puntos por velocidad.",
     start: "Comenzar",
     adminAccess: "Acceso administrador",
-    editorEyebrow: "Personalizacion local",
+    editorEyebrow: "Personalización local",
     editorTitle: "Editor de preguntas",
     exportJson: "Exportar JSON",
     existingQuestion: "Editar pregunta existente",
     newQuestion: "Nueva pregunta",
     editorEsTitle: "Castellano",
-    editorCaTitle: "Catalan",
+    editorCaTitle: "Catalán",
     questionLabel: "Pregunta",
     questionPlaceholderEs: "Escribe el enunciado",
     questionPlaceholderCa: "Escriu l'enunciat",
-    optionLabel: "Opcion {number}",
-    optionLabelCa: "Opcio {number}",
+    optionLabel: "Opción {number}",
+    optionLabelCa: "Opció {number}",
     captionLabel: "Pie de foto",
     captionLabelCa: "Peu de foto",
     captionPlaceholderEs: "Describe la imagen que quieres mostrar",
@@ -44,7 +44,7 @@ const ui = {
     resultEyebrow: "Fin del juego",
     restart: "Jugar otra vez",
     loadingQuestions: "Cargando preguntas...",
-    noQuestions: "No hay preguntas cargadas todavia.",
+    noQuestions: "No hay preguntas cargadas todavía.",
     needsQuestions: "Hay {count} preguntas. Necesitas al menos {required} para jugar.",
     loadedQuestions: "{count} preguntas cargadas ({required} aleatorias por partida).",
     loadError: "No se pudieron cargar las preguntas. Revisa questions.json.",
@@ -52,52 +52,52 @@ const ui = {
     questionCount: "Pregunta {current} / {total}",
     imageReference: "Imagen de referencia de opusdei.org",
     imageAlt: "Imagen para la pregunta {number}",
-    noAnswer: "Sin respuesta. La correcta se marco en verde.",
+    noAnswer: "Sin respuesta. La correcta se marcó en verde.",
     correct: "Correcto +{points} puntos",
     incorrect: "No era esa. Te recuperas en la siguiente.",
     resultExpert: "Nivel experto",
     resultGood: "Buen recorrido",
     resultRetry: "Sigue practicando",
     resultScore: "Has cerrado la partida con {score} puntos ({ratio}% de rendimiento).",
-    adminHidden: "El editor de preguntas esta oculto.",
+    adminHidden: "El editor de preguntas está oculto.",
     adminActive: "Modo administrador activo.",
     adminDenied: "Acceso denegado.",
-    adminPrompt: "Contrasena de administrador",
+    adminPrompt: "Contraseña de administrador",
     editingExisting: "Editando una pregunta existente.",
     validationError: "Completa ambas versiones de la pregunta, las cuatro opciones y la respuesta correcta.",
-    invalidImage: "El archivo debe ser una imagen valida.",
-    imageTooLarge: "La imagen supera el limite de 2 MB para guardarse en este navegador.",
+    invalidImage: "El archivo debe ser una imagen válida.",
+    imageTooLarge: "La imagen supera el límite de 2 MB para guardarse en este navegador.",
     updatedQuestion: "Pregunta actualizada correctamente.",
     createdQuestion: "Pregunta creada correctamente.",
     saveQuestionError: "No se pudo guardar la pregunta.",
     noImageDelete: "No hay ninguna imagen para eliminar en esa pregunta.",
-    imageDeleted: "Se elimino la imagen de la pregunta.",
+    imageDeleted: "Se eliminó la imagen de la pregunta.",
     deleteSelect: "Selecciona una pregunta existente para eliminarla.",
     questionDeleted: "Pregunta eliminada del banco local.",
-    exported: "Se descargo un nuevo questions.json con tus cambios locales.",
+    exported: "Se descargó un nuevo questions.json con tus cambios locales.",
   },
   ca: {
-    pageTitle: "Coneixes la Montse Grases?",
+    pageTitle: "Coneixes Montse Grases?",
     languageLabel: "Idioma",
-    heroCaption: 'Imatge de l\'album "Montse Grases, una noia com les altres" (Flickr Opus Dei)',
-    leadText: "Repasa la vida de Montserrat Grases amb preguntes rapides i punts per velocitat.",
-    start: "Comencar",
-    adminAccess: "Acces administrador",
-    editorEyebrow: "Personalitzacio local",
+    heroCaption: 'Imatge de l\'àlbum "Montse Grases, una noia com les altres" (Flickr Opus Dei)',
+    leadText: "Repassa la vida de Montserrat Grases amb preguntes ràpides i punts per velocitat.",
+    start: "Comença",
+    adminAccess: "Accés administrador",
+    editorEyebrow: "Personalització local",
     editorTitle: "Editor de preguntes",
     exportJson: "Exportar JSON",
     existingQuestion: "Editar pregunta existent",
     newQuestion: "Nova pregunta",
-    editorEsTitle: "Castella",
-    editorCaTitle: "Catala",
+    editorEsTitle: "Castellà",
+    editorCaTitle: "Català",
     questionLabel: "Pregunta",
-    questionPlaceholderEs: "Escriu l'enunciat en castella",
+    questionPlaceholderEs: "Escriu l'enunciat en castellà",
     questionPlaceholderCa: "Escriu l'enunciat",
-    optionLabel: "Opcio {number}",
-    optionLabelCa: "Opcio {number}",
+    optionLabel: "Opció {number}",
+    optionLabelCa: "Opció {number}",
     captionLabel: "Peu de foto",
     captionLabelCa: "Peu de foto",
-    captionPlaceholderEs: "Descriu la imatge en castella",
+    captionPlaceholderEs: "Descriu la imatge en castellà",
     captionPlaceholderCa: "Descriu la imatge que vols mostrar",
     answerLabel: "Resposta correcta",
     answerPlaceholder: "Selecciona la correcta",
@@ -109,33 +109,33 @@ const ui = {
     hudScore: "Punts",
     hudTimer: "Temps",
     backToStart: "Tornar a l'inici",
-    next: "Seguent",
+    next: "Següent",
     resultEyebrow: "Final del joc",
     restart: "Tornar a jugar",
     loadingQuestions: "Carregant preguntes...",
     noQuestions: "Encara no hi ha preguntes carregades.",
     needsQuestions: "Hi ha {count} preguntes. En necessites almenys {required} per jugar.",
-    loadedQuestions: "{count} preguntes carregades ({required} aleatories per partida).",
+    loadedQuestions: "{count} preguntes carregades ({required} aleatòries per partida).",
     loadError: "No s'han pogut carregar les preguntes. Revisa questions.json.",
-    completionCount: "Qestionaris completats en aquest dispositiu: {count}",
+    completionCount: "Qüestionaris completats en aquest dispositiu: {count}",
     questionCount: "Pregunta {current} / {total}",
-    imageReference: "Imatge de referencia d'opusdei.org",
+    imageReference: "Imatge de referència d'opusdei.org",
     imageAlt: "Imatge per a la pregunta {number}",
     noAnswer: "Sense resposta. La correcta s'ha marcat en verd.",
     correct: "Correcte +{points} punts",
-    incorrect: "No era aquesta. Et refas a la seguent.",
+    incorrect: "No era aquesta. Et refàs a la següent.",
     resultExpert: "Nivell expert",
     resultGood: "Bon recorregut",
     resultRetry: "Continua practicant",
     resultScore: "Has tancat la partida amb {score} punts ({ratio}% de rendiment).",
-    adminHidden: "L'editor de preguntes esta ocult.",
+    adminHidden: "L'editor de preguntes està ocult.",
     adminActive: "Mode administrador actiu.",
-    adminDenied: "Acces denegat.",
+    adminDenied: "Accés denegat.",
     adminPrompt: "Contrasenya d'administrador",
-    editingExisting: "Estas editant una pregunta existent.",
+    editingExisting: "Estàs editant una pregunta existent.",
     validationError: "Completa les dues versions de la pregunta, les quatre opcions i la resposta correcta.",
-    invalidImage: "L'arxiu ha de ser una imatge valida.",
-    imageTooLarge: "La imatge supera el limit de 2 MB per desar-se en aquest navegador.",
+    invalidImage: "L'arxiu ha de ser una imatge vàlida.",
+    imageTooLarge: "La imatge supera el límit de 2 MB per desar-se en aquest navegador.",
     updatedQuestion: "Pregunta actualitzada correctament.",
     createdQuestion: "Pregunta creada correctament.",
     saveQuestionError: "No s'ha pogut desar la pregunta.",
@@ -153,7 +153,7 @@ const screens = {
   result: document.getElementById("result-screen"),
 };
 
-const languageSelect = document.getElementById("page-language-select");
+const languageInputs = [...document.querySelectorAll('input[name="page-language"]')];
 const languageLabel = document.getElementById("language-label");
 const startForm = document.getElementById("start-form");
 const startBtn = startForm.querySelector("button[type='submit']");
@@ -161,7 +161,6 @@ const appTitle = document.getElementById("app-title");
 const heroCaption = document.getElementById("hero-caption");
 const leadText = document.getElementById("lead-text");
 const loadStatus = document.getElementById("load-status");
-const completionCount = document.getElementById("completion-count");
 const adminToggleBtn = document.getElementById("admin-toggle-btn");
 const adminStatus = document.getElementById("admin-status");
 const assetPanel = document.getElementById("asset-panel");
@@ -487,7 +486,6 @@ function saveCompletedGames() {
 
 function renderCompletedGames() {
   const label = t("completionCount", { count: completedGames });
-  completionCount.textContent = label;
   resultCompletionCount.textContent = label;
 }
 
@@ -724,8 +722,10 @@ function validateQuestions(data, { requirePlayable = true } = {}) {
 
 function applyLanguage() {
   const selectedAnswer = answerSelect.value;
+  const selectedLanguageInput = languageInputs.find((input) => input.value === currentLanguage);
   document.documentElement.lang = currentLanguage;
   document.title = t("pageTitle");
+  if (selectedLanguageInput) selectedLanguageInput.checked = true;
   languageLabel.textContent = t("languageLabel");
   appTitle.textContent = t("pageTitle");
   heroCaption.textContent = t("heroCaption");
@@ -821,9 +821,12 @@ async function loadQuestions() {
   }
 }
 
-languageSelect.addEventListener("change", () => {
-  currentLanguage = languageSelect.value;
-  applyLanguage();
+languageInputs.forEach((input) => {
+  input.addEventListener("change", () => {
+    if (!input.checked) return;
+    currentLanguage = input.value;
+    applyLanguage();
+  });
 });
 
 startForm.addEventListener("submit", (event) => {

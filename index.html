@@ -15,11 +15,19 @@
   <body>
     <main class="app-shell">
       <div class="app-topbar">
-        <label id="language-label" for="page-language-select">Idioma</label>
-        <select id="page-language-select">
-          <option value="es">Castellano</option>
-          <option value="ca">Català</option>
-        </select>
+        <span id="language-label">Idioma</span>
+        <div class="language-switch" role="radiogroup" aria-labelledby="language-label">
+          <label class="language-option" for="language-es">
+            <input id="language-es" type="radio" name="page-language" value="es" checked />
+            <span class="language-flag" aria-hidden="true">🇪🇸</span>
+            <span class="language-name">Castellano</span>
+          </label>
+          <label class="language-option" for="language-ca">
+            <input id="language-ca" type="radio" name="page-language" value="ca" />
+            <span class="language-flag" aria-hidden="true">🏴</span>
+            <span class="language-name">Català</span>
+          </label>
+        </div>
       </div>
 
       <section id="start-screen" class="screen active">
@@ -27,20 +35,18 @@
         <figure class="hero-shot">
           <img
             src="https://live.staticflickr.com/7720/17113918330_64a8463504_b.jpg"
-            alt="Fotografia de Montserrat Grases"
+            alt="Fotografía de Montserrat Grases"
             loading="lazy"
           />
-          <figcaption id="hero-caption">Imagen del album "Montse Grases, una chica como las demas" (Flickr Opus Dei)</figcaption>
+          <figcaption id="hero-caption">Imagen del álbum "Montse Grases, una chica como las demás" (Flickr Opus Dei)</figcaption>
         </figure>
         <p id="lead-text" class="lead">
-          Repasa la vida de Montserrat Grases con preguntas rapidas y puntos por velocidad.
+          Repasa la vida de Montserrat Grases con preguntas rápidas y puntos por velocidad.
         </p>
         <form id="start-form" class="start-form">
           <button id="start-btn-label" type="submit" class="btn btn-primary">Comenzar</button>
         </form>
         <p id="load-status" class="load-status" aria-live="polite"></p>
-        <p id="completion-count" class="completion-count" aria-live="polite"></p>
-
         <div class="admin-entry">
           <button id="admin-toggle-btn" type="button" class="btn btn-secondary">Acceso administrador</button>
           <p id="admin-status" class="admin-status" aria-live="polite"></p>
@@ -49,7 +55,7 @@
         <section id="asset-panel" class="asset-panel" aria-labelledby="asset-panel-title" hidden>
           <div class="asset-panel-head">
             <div>
-              <p id="editor-eyebrow" class="eyebrow">Personalizacion local</p>
+              <p id="editor-eyebrow" class="eyebrow">Personalización local</p>
               <h2 id="asset-panel-title">Editor de preguntas</h2>
             </div>
             <button id="export-questions-btn" type="button" class="btn btn-secondary">Exportar JSON</button>
@@ -74,16 +80,16 @@
                 <label id="question-es-label" for="question-text-es">Pregunta</label>
                 <input id="question-text-es" maxlength="180" placeholder="Escribe el enunciado" required />
 
-                <label id="option-es-1-label" for="option-es-1">Opcion 1</label>
+                <label id="option-es-1-label" for="option-es-1">Opción 1</label>
                 <input id="option-es-1" class="option-input-es" maxlength="120" required />
 
-                <label id="option-es-2-label" for="option-es-2">Opcion 2</label>
+                <label id="option-es-2-label" for="option-es-2">Opción 2</label>
                 <input id="option-es-2" class="option-input-es" maxlength="120" required />
 
-                <label id="option-es-3-label" for="option-es-3">Opcion 3</label>
+                <label id="option-es-3-label" for="option-es-3">Opción 3</label>
                 <input id="option-es-3" class="option-input-es" maxlength="120" required />
 
-                <label id="option-es-4-label" for="option-es-4">Opcion 4</label>
+                <label id="option-es-4-label" for="option-es-4">Opción 4</label>
                 <input id="option-es-4" class="option-input-es" maxlength="120" required />
 
                 <label id="caption-es-label" for="image-caption-es">Pie de foto</label>
@@ -96,16 +102,16 @@
                 <label id="question-ca-label" for="question-text-ca">Pregunta</label>
                 <input id="question-text-ca" maxlength="180" placeholder="Escriu l'enunciat" required />
 
-                <label id="option-ca-1-label" for="option-ca-1">Opcio 1</label>
+                <label id="option-ca-1-label" for="option-ca-1">Opció 1</label>
                 <input id="option-ca-1" class="option-input-ca" maxlength="120" required />
 
-                <label id="option-ca-2-label" for="option-ca-2">Opcio 2</label>
+                <label id="option-ca-2-label" for="option-ca-2">Opció 2</label>
                 <input id="option-ca-2" class="option-input-ca" maxlength="120" required />
 
-                <label id="option-ca-3-label" for="option-ca-3">Opcio 3</label>
+                <label id="option-ca-3-label" for="option-ca-3">Opció 3</label>
                 <input id="option-ca-3" class="option-input-ca" maxlength="120" required />
 
-                <label id="option-ca-4-label" for="option-ca-4">Opcio 4</label>
+                <label id="option-ca-4-label" for="option-ca-4">Opció 4</label>
                 <input id="option-ca-4" class="option-input-ca" maxlength="120" required />
 
                 <label id="caption-ca-label" for="image-caption-ca">Peu de foto</label>
@@ -116,10 +122,10 @@
             <label id="answer-label" for="answer-select">Respuesta correcta</label>
             <select id="answer-select" required>
               <option value="">Selecciona la correcta</option>
-              <option value="0">Opcion 1</option>
-              <option value="1">Opcion 2</option>
-              <option value="2">Opcion 3</option>
-              <option value="3">Opcion 4</option>
+              <option value="0">Opción 1</option>
+              <option value="1">Opción 2</option>
+              <option value="2">Opción 3</option>
+              <option value="3">Opción 4</option>
             </select>
 
             <label id="image-file-label" for="image-file-input">Archivo de imagen</label>
