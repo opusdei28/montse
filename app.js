@@ -38,7 +38,6 @@ const imageForm = document.getElementById("image-form");
 const imageQuestionSelect = document.getElementById("image-question-select");
 const newQuestionBtn = document.getElementById("new-question-btn");
 const exportQuestionsBtn = document.getElementById("export-questions-btn");
-const importQuestionsInput = document.getElementById("import-questions-input");
 const questionTextInput = document.getElementById("question-text-input");
 const optionInputs = [...document.querySelectorAll(".option-input")];
 const answerSelect = document.getElementById("answer-select");
@@ -612,32 +611,6 @@ exportQuestionsBtn.addEventListener("click", () => {
   downloadQuestionsJson();
   imageFormStatus.textContent = "Se descargo un nuevo questions.json con tus cambios locales.";
   imageFormStatus.style.color = "#76f3b8";
-});
-
-importQuestionsInput.addEventListener("change", async () => {
-  const file = importQuestionsInput.files?.[0];
-  if (!file) return;
-
-  try {
-    const text = await file.text();
-    const data = JSON.parse(text);
-    if (!validateQuestions(data, { requirePlayable: false })) {
-      throw new Error("El JSON importado no tiene el formato esperado.");
-    }
-
-    questionBank = hydrateQuestions(data);
-    saveQuestionBank();
-    populateQuestionSelect();
-    resetEditorForm();
-    refreshQuestionBankStatus();
-    imageFormStatus.textContent = "Importacion completada. Ya puedes editar y exportar el nuevo banco.";
-    imageFormStatus.style.color = "#76f3b8";
-  } catch (error) {
-    imageFormStatus.textContent = error.message || "No se pudo importar el archivo JSON.";
-    imageFormStatus.style.color = "#ff9c96";
-  } finally {
-    importQuestionsInput.value = "";
-  }
 });
 
 nextBtn.addEventListener("click", nextQuestion);

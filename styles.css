@@ -257,7 +257,7 @@ input[type="file"] {
 }
 
 .image-actions .btn {
-  flex: 1 1 180px;
+  flex: 0 0 180px;
   margin-top: 0;
 }
 
