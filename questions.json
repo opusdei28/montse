@@ -1,302 +1,752 @@
 [
   {
-    "text": { "es": "¿En qué ciudad nació Montse Grases?", "ca": "En quina ciutat va néixer la Montse Grases?" },
+    "text": {
+      "es": "¿En qué ciudad nació Montse Grases?",
+      "ca": "En quina ciutat va néixer la Montse Grases?"
+    },
     "options": [
-      { "es": "Barcelona", "ca": "Barcelona" },
-      { "es": "Madrid", "ca": "Madrid" },
-      { "es": "Valencia", "ca": "València" },
-      { "es": "Sevilla", "ca": "Sevilla" }
+      {
+        "es": "Barcelona",
+        "ca": "Barcelona"
+      },
+      {
+        "es": "Madrid",
+        "ca": "Madrid"
+      },
+      {
+        "es": "Valencia",
+        "ca": "València"
+      },
+      {
+        "es": "Sevilla",
+        "ca": "Sevilla"
+      }
     ],
     "answer": 0,
-    "image": "https://live.staticflickr.com/8742/17301477995_7c10559dab_b.jpg",
-    "imageCaption": { "es": "Montse en Barcelona (álbum de Flickr Opus Dei)", "ca": "Montse a Barcelona (àlbum de Flickr Opus Dei)" }
+    "image": "data:image/jpeg;base64,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",
+    "imageCaption": {
+      "es": "Vista de Barcelona",
+      "ca": ""
+    }
   },
   {
-    "text": { "es": "¿En qué fecha nació Montse?", "ca": "En quina data va néixer la Montse?" },
+    "text": {
+      "es": "¿En qué fecha nació Montse?",
+      "ca": "En quina data va néixer la Montse?"
+    },
     "options": [
-      { "es": "10 de julio de 1941", "ca": "10 de juliol de 1941" },
-      { "es": "26 de marzo de 1942", "ca": "26 de març de 1942" },
-      { "es": "24 de diciembre de 1957", "ca": "24 de desembre de 1957" },
-      { "es": "10 de noviembre de 1958", "ca": "10 de novembre de 1958" }
+      {
+        "es": "10 de julio de 1941",
+        "ca": "10 de juliol de 1941"
+      },
+      {
+        "es": "26 de marzo de 1942",
+        "ca": "26 de març de 1942"
+      },
+      {
+        "es": "24 de diciembre de 1957",
+        "ca": "24 de desembre de 1957"
+      },
+      {
+        "es": "10 de noviembre de 1958",
+        "ca": "10 de novembre de 1958"
+      }
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/7713/17299632652_eecf34f5e9_b.jpg",
-    "imageCaption": { "es": "Retrato juvenil de Montse", "ca": "Retrat juvenil de la Montse" }
+    "imageCaption": {
+      "es": "Retrato juvenil de Montse",
+      "ca": "Retrat juvenil de la Montse"
+    }
   },
   {
-    "text": { "es": "¿Cuál era su nombre completo?", "ca": "Quin era el seu nom complet?" },
+    "text": {
+      "es": "¿Cuál era su nombre completo?",
+      "ca": "Quin era el seu nom complet?"
+    },
     "options": [
-      { "es": "María Montserrat Grases García", "ca": "Maria Montserrat Grases García" },
-      { "es": "Montserrat Josefa Grases Ruiz", "ca": "Montserrat Josefa Grases Ruiz" },
-      { "es": "María Montserrat García Grases", "ca": "Maria Montserrat García Grases" },
-      { "es": "Montserrat Teresa Grases", "ca": "Montserrat Teresa Grases" }
+      {
+        "es": "María Montserrat Grases García",
+        "ca": "Maria Montserrat Grases García"
+      },
+      {
+        "es": "Montserrat Josefa Grases Ruiz",
+        "ca": "Montserrat Josefa Grases Ruiz"
+      },
+      {
+        "es": "María Montserrat García Grases",
+        "ca": "Maria Montserrat García Grases"
+      },
+      {
+        "es": "Montserrat Teresa Grases",
+        "ca": "Montserrat Teresa Grases"
+      }
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/8744/16678999114_5e9f6ebd6e_b.jpg",
-    "imageCaption": { "es": "Montse Grases, una chica como las demás", "ca": "Montse Grases, una noia com les altres" }
+    "imageCaption": {
+      "es": "Montse Grases, una chica como las demás",
+      "ca": "Montse Grases, una noia com les altres"
+    }
   },
   {
-    "text": { "es": "¿Cuántos hermanos tenía Montse Grases?", "ca": "Quants germans tenia la Montse Grases?" },
+    "text": {
+      "es": "¿Cuántos hermanos tenía Montse Grases?",
+      "ca": "Quants germans tenia la Montse Grases?"
+    },
     "options": [
-      { "es": "Ocho hermanos", "ca": "Vuit germans" },
-      { "es": "Tres hermanos", "ca": "Tres germans" },
-      { "es": "Diez hermanos", "ca": "Deu germans" },
-      { "es": "Ninguno", "ca": "Cap" }
+      {
+        "es": "Ocho hermanos",
+        "ca": "Vuit germans"
+      },
+      {
+        "es": "Tres hermanos",
+        "ca": "Tres germans"
+      },
+      {
+        "es": "Diez hermanos",
+        "ca": "Deu germans"
+      },
+      {
+        "es": "Ninguno",
+        "ca": "Cap"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/familiagrases_20160901165223685759.jpg",
-    "imageCaption": { "es": "Imagen vinculada a la familia Grases", "ca": "Imatge vinculada a la família Grases" }
+    "imageCaption": {
+      "es": "Imagen vinculada a la familia Grases",
+      "ca": "Imatge vinculada a la família Grases"
+    }
   },
   {
-    "text": { "es": "¿Qué lugar ocupaba Montse entre sus hermanos?", "ca": "Quin lloc ocupava la Montse entre els seus germans?" },
+    "text": {
+      "es": "¿Qué lugar ocupaba Montse entre sus hermanos?",
+      "ca": "Quin lloc ocupava la Montse entre els seus germans?"
+    },
     "options": [
-      { "es": "La segunda", "ca": "La segona" },
-      { "es": "La mayor", "ca": "La gran" },
-      { "es": "La menor", "ca": "La petita" },
-      { "es": "La quinta", "ca": "La cinquena" }
+      {
+        "es": "La segunda",
+        "ca": "La segona"
+      },
+      {
+        "es": "La mayor",
+        "ca": "La gran"
+      },
+      {
+        "es": "La menor",
+        "ca": "La petita"
+      },
+      {
+        "es": "La quinta",
+        "ca": "La cinquena"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/montsegrasesconsumadre_20170804170655266059.jpg",
-    "imageCaption": { "es": "Montse en contexto familiar", "ca": "La Montse en context familiar" }
+    "imageCaption": {
+      "es": "Montse en contexto familiar",
+      "ca": "La Montse en context familiar"
+    }
   },
   {
-    "text": { "es": "¿Cómo se llamaban sus padres?", "ca": "Com es deien els seus pares?" },
+    "text": {
+      "es": "¿Cómo se llamaban sus padres?",
+      "ca": "Com es deien els seus pares?"
+    },
     "options": [
-      { "es": "Manuel Grases y Manolita García", "ca": "Manuel Grases i Manolita García" },
-      { "es": "Miguel Grases y María López", "ca": "Miguel Grases i Maria López" },
-      { "es": "Joaquín Grases y Ana García", "ca": "Joaquín Grases i Ana García" },
-      { "es": "Pedro García y Luisa Grases", "ca": "Pedro García i Luisa Grases" }
+      {
+        "es": "Manuel Grases y Manolita García",
+        "ca": "Manuel Grases i Manolita García"
+      },
+      {
+        "es": "Miguel Grases y María López",
+        "ca": "Miguel Grases i Maria López"
+      },
+      {
+        "es": "Joaquín Grases y Ana García",
+        "ca": "Joaquín Grases i Ana García"
+      },
+      {
+        "es": "Pedro García y Luisa Grases",
+        "ca": "Pedro García i Luisa Grases"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/s3direct/d0f08114-66e9-49c7-81b8-06e8957378ec.jpg",
-    "imageCaption": { "es": "Recuerdo familiar de Montse", "ca": "Record familiar de la Montse" }
+    "imageCaption": {
+      "es": "Recuerdo familiar de Montse",
+      "ca": "Record familiar de la Montse"
+    }
   },
   {
-    "text": { "es": "¿Qué estudios alternó Montse con el bachillerato?", "ca": "Quins estudis compaginava la Montse amb el batxillerat?" },
+    "text": {
+      "es": "¿Qué estudios alternó Montse con el bachillerato?",
+      "ca": "Quins estudis compaginava la Montse amb el batxillerat?"
+    },
     "options": [
-      { "es": "Piano", "ca": "Piano" },
-      { "es": "Arquitectura", "ca": "Arquitectura" },
-      { "es": "Medicina", "ca": "Medicina" },
-      { "es": "Periodismo", "ca": "Periodisme" }
+      {
+        "es": "Piano",
+        "ca": "Piano"
+      },
+      {
+        "es": "Arquitectura",
+        "ca": "Arquitectura"
+      },
+      {
+        "es": "Medicina",
+        "ca": "Medicina"
+      },
+      {
+        "es": "Periodismo",
+        "ca": "Periodisme"
+      }
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/8800/17275501556_ea6af557f1_b.jpg",
-    "imageCaption": { "es": "Etapa de juventud y estudios", "ca": "Etapa de joventut i estudis" }
+    "imageCaption": {
+      "es": "Etapa de juventud y estudios",
+      "ca": "Etapa de joventut i estudis"
+    }
   },
   {
-    "text": { "es": "¿En qué institución se matriculó Montse tras finalizar sus estudios de bachillerato?", "ca": "En quina institució es va matricular la Montse en acabar el batxillerat?" },
+    "text": {
+      "es": "¿En qué institución se matriculó Montse tras finalizar sus estudios de bachillerato?",
+      "ca": "En quina institució es va matricular la Montse en acabar el batxillerat?"
+    },
     "options": [
-      { "es": "Escuela Profesional para la Mujer de la Diputación de Barcelona", "ca": "Escola Professional per a la Dona de la Diputació de Barcelona" },
-      { "es": "Universidad de Barcelona", "ca": "Universitat de Barcelona" },
-      { "es": "Conservatorio del Liceo", "ca": "Conservatori del Liceu" },
-      { "es": "Escuela de Bellas Artes", "ca": "Escola de Belles Arts" }
+      {
+        "es": "Escuela Profesional para la Mujer de la Diputación de Barcelona",
+        "ca": "Escola Professional per a la Dona de la Diputació de Barcelona"
+      },
+      {
+        "es": "Universidad de Barcelona",
+        "ca": "Universitat de Barcelona"
+      },
+      {
+        "es": "Conservatorio del Liceo",
+        "ca": "Conservatori del Liceu"
+      },
+      {
+        "es": "Escuela de Bellas Artes",
+        "ca": "Escola de Belles Arts"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/vida-de-montse_20140308123203089294.jpg",
-    "imageCaption": { "es": "Material biográfico sobre su formación", "ca": "Material biogràfic sobre la seva formació" }
+    "imageCaption": {
+      "es": "Material biográfico sobre su formación",
+      "ca": "Material biogràfic sobre la seva formació"
+    }
   },
   {
-    "text": { "es": "¿Qué baile tradicional catalán era el preferido de Montse?", "ca": "Quin ball tradicional català era el preferit de la Montse?" },
+    "text": {
+      "es": "¿Qué baile tradicional catalán era el preferido de Montse?",
+      "ca": "Quin ball tradicional català era el preferit de la Montse?"
+    },
     "options": [
-      { "es": "Sardanas", "ca": "Sardanes" },
-      { "es": "Jotas", "ca": "Jotes" },
-      { "es": "Sevillanas", "ca": "Sevillanes" },
-      { "es": "Muñeiras", "ca": "Muñeires" }
+      {
+        "es": "Sardanas",
+        "ca": "Sardanes"
+      },
+      {
+        "es": "Jotas",
+        "ca": "Jotes"
+      },
+      {
+        "es": "Sevillanas",
+        "ca": "Sevillanes"
+      },
+      {
+        "es": "Muñeiras",
+        "ca": "Muñeires"
+      }
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/7704/17113921570_d50b70c7b4_b.jpg",
-    "imageCaption": { "es": "Montse en su ambiente juvenil catalán", "ca": "La Montse en el seu ambient juvenil català" }
+    "imageCaption": {
+      "es": "Montse en su ambiente juvenil catalán",
+      "ca": "La Montse en el seu ambient juvenil català"
+    }
   },
   {
-    "text": { "es": "¿Qué deportes practicaba Montse?", "ca": "Quins esports practicava la Montse?" },
+    "text": {
+      "es": "¿Qué deportes practicaba Montse?",
+      "ca": "Quins esports practicava la Montse?"
+    },
     "options": [
-      { "es": "Tenis y ping-pong", "ca": "Tennis i ping-pong" },
-      { "es": "Rugby y boxeo", "ca": "Rugbi i boxa" },
-      { "es": "Béisbol y hockey hielo", "ca": "Beisbol i hoquei gel" },
-      { "es": "Esgrima y remo", "ca": "Esgrima i rem" }
+      {
+        "es": "Tenis y ping-pong",
+        "ca": "Tennis i ping-pong"
+      },
+      {
+        "es": "Rugby y boxeo",
+        "ca": "Rugbi i boxa"
+      },
+      {
+        "es": "Béisbol y hockey hielo",
+        "ca": "Beisbol i hoquei gel"
+      },
+      {
+        "es": "Esgrima y remo",
+        "ca": "Esgrima i rem"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/Montse-Grases_20160503114305605928.jpg",
-    "imageCaption": { "es": "Artículo sobre su pasión por el deporte", "ca": "Article sobre la seva passió per l'esport" }
+    "imageCaption": {
+      "es": "Artículo sobre su pasión por el deporte",
+      "ca": "Article sobre la seva passió per l'esport"
+    }
   },
   {
-    "text": { "es": "¿Qué actividades de voluntariado llevaba a cabo Montse?", "ca": "Quines activitats de voluntariat feia la Montse?" },
+    "text": {
+      "es": "¿Qué actividades de voluntariado llevaba a cabo Montse?",
+      "ca": "Quines activitats de voluntariat feia la Montse?"
+    },
     "options": [
-      { "es": "Daba catequesis a niños", "ca": "Feia catequesi a infants" },
-      { "es": "Vendía entradas de teatro", "ca": "Venia entrades de teatre" },
-      { "es": "Organizaba carreras", "ca": "Organitzava curses" },
-      { "es": "Impartía clases de piano", "ca": "Feia classes de piano" }
+      {
+        "es": "Daba catequesis a niños",
+        "ca": "Feia catequesi a infants"
+      },
+      {
+        "es": "Vendía entradas de teatro",
+        "ca": "Venia entrades de teatre"
+      },
+      {
+        "es": "Organizaba carreras",
+        "ca": "Organitzava curses"
+      },
+      {
+        "es": "Impartía clases de piano",
+        "ca": "Feia classes de piano"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/Barcelona-Montse-Grases-numeraria-Opus-Dei_20160416200033319392.jpg",
-    "imageCaption": { "es": "Montse, referente para la juventud", "ca": "La Montse, referent per a la joventut" }
+    "imageCaption": {
+      "es": "Montse, referente para la juventud",
+      "ca": "La Montse, referent per a la joventut"
+    }
   },
   {
-    "text": { "es": "¿Qué solía llevar a los niños de la catequesis?", "ca": "Què acostumava a portar als infants de la catequesi?" },
+    "text": {
+      "es": "¿Qué solía llevar a los niños de la catequesis?",
+      "ca": "Què acostumava a portar als infants de la catequesi?"
+    },
     "options": [
-      { "es": "Juguetes y caramelos", "ca": "Joguines i caramels" },
-      { "es": "Ropa deportiva", "ca": "Roba esportiva" },
-      { "es": "Cuadernos de dibujo", "ca": "Quaderns de dibuix" },
-      { "es": "Entradas de cine", "ca": "Entrades de cinema" }
+      {
+        "es": "Juguetes y caramelos",
+        "ca": "Joguines i caramels"
+      },
+      {
+        "es": "Ropa deportiva",
+        "ca": "Roba esportiva"
+      },
+      {
+        "es": "Cuadernos de dibujo",
+        "ca": "Quaderns de dibuix"
+      },
+      {
+        "es": "Entradas de cine",
+        "ca": "Entrades de cinema"
+      }
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/8690/17300995461_4cfec1cf45_b.jpg",
-    "imageCaption": { "es": "Imagen de su trato cercano y alegre", "ca": "Imatge del seu tracte proper i alegre" }
+    "imageCaption": {
+      "es": "Imagen de su trato cercano y alegre",
+      "ca": "Imatge del seu tracte proper i alegre"
+    }
   },
   {
-    "text": { "es": "¿En qué año tuvo Montse su primer contacto con el Opus Dei?", "ca": "En quin any va tenir la Montse el primer contacte amb l'Opus Dei?" },
+    "text": {
+      "es": "¿En qué año tuvo Montse su primer contacto con el Opus Dei?",
+      "ca": "En quin any va tenir la Montse el primer contacte amb l'Opus Dei?"
+    },
     "options": [
-      { "es": "1954", "ca": "1954" },
-      { "es": "1950", "ca": "1950" },
-      { "es": "1957", "ca": "1957" },
-      { "es": "1959", "ca": "1959" }
+      {
+        "es": "1954",
+        "ca": "1954"
+      },
+      {
+        "es": "1950",
+        "ca": "1950"
+      },
+      {
+        "es": "1957",
+        "ca": "1957"
+      },
+      {
+        "es": "1959",
+        "ca": "1959"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/s3direct/6fad7613-c76a-4090-a387-d896541e23aa.jpg",
-    "imageCaption": { "es": "Devoción y vida espiritual de Montse", "ca": "Devoció i vida espiritual de la Montse" }
+    "imageCaption": {
+      "es": "Devoción y vida espiritual de Montse",
+      "ca": "Devoció i vida espiritual de la Montse"
+    }
   },
   {
-    "text": { "es": "¿En qué fecha pidió la admisión en el Opus Dei?", "ca": "En quina data va demanar l'admissió a l'Opus Dei?" },
+    "text": {
+      "es": "¿En qué fecha pidió la admisión en el Opus Dei?",
+      "ca": "En quina data va demanar l'admissió a l'Opus Dei?"
+    },
     "options": [
-      { "es": "24 de diciembre de 1957", "ca": "24 de desembre de 1957" },
-      { "es": "10 de julio de 1957", "ca": "10 de juliol de 1957" },
-      { "es": "26 de marzo de 1959", "ca": "26 de març de 1959" },
-      { "es": "1 de enero de 1958", "ca": "1 de gener de 1958" }
+      {
+        "es": "24 de diciembre de 1957",
+        "ca": "24 de desembre de 1957"
+      },
+      {
+        "es": "10 de julio de 1957",
+        "ca": "10 de juliol de 1957"
+      },
+      {
+        "es": "26 de marzo de 1959",
+        "ca": "26 de març de 1959"
+      },
+      {
+        "es": "1 de enero de 1958",
+        "ca": "1 de gener de 1958"
+      }
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/7701/17275498306_213da3f185_b.jpg",
-    "imageCaption": { "es": "Montse en su etapa de decisión vocacional", "ca": "La Montse en la seva etapa de decisió vocacional" }
+    "imageCaption": {
+      "es": "Montse en su etapa de decisión vocacional",
+      "ca": "La Montse en la seva etapa de decisió vocacional"
+    }
   },
   {
-    "text": { "es": "¿Qué ayudó a madurar la vida de oración de Montse?", "ca": "Què va ajudar a fer madurar la vida d'oració de la Montse?" },
+    "text": {
+      "es": "¿Qué ayudó a madurar la vida de oración de Montse?",
+      "ca": "Què va ajudar a fer madurar la vida d'oració de la Montse?"
+    },
     "options": [
-      { "es": "Frecuentar el centro Llar", "ca": "Freqüentar el centre Llar" },
-      { "es": "Ir a un internado en Roma", "ca": "Anar a un internat a Roma" },
-      { "es": "Estudiar teología en la universidad", "ca": "Estudiar teologia a la universitat" },
-      { "es": "Hacer peregrinaciones semanales", "ca": "Fer peregrinacions setmanals" }
+      {
+        "es": "Frecuentar el centro Llar",
+        "ca": "Freqüentar el centre Llar"
+      },
+      {
+        "es": "Ir a un internado en Roma",
+        "ca": "Anar a un internat a Roma"
+      },
+      {
+        "es": "Estudiar teología en la universidad",
+        "ca": "Estudiar teologia a la universitat"
+      },
+      {
+        "es": "Hacer peregrinaciones semanales",
+        "ca": "Fer peregrinacions setmanals"
+      }
     ],
     "answer": 0,
     "image": "https://i.ytimg.com/vi/VyqXMDczkzY/maxresdefault.jpg",
-    "imageCaption": { "es": "Documental sobre su camino espiritual", "ca": "Documental sobre el seu camí espiritual" }
+    "imageCaption": {
+      "es": "Documental sobre su camino espiritual",
+      "ca": "Documental sobre el seu camí espiritual"
+    }
   },
   {
-    "text": { "es": "¿En qué mes de 1957 se manifestaron los primeros dolores en su pierna?", "ca": "En quin mes de 1957 es van manifestar els primers dolors a la cama?" },
+    "text": {
+      "es": "¿En qué mes de 1957 se manifestaron los primeros dolores en su pierna?",
+      "ca": "En quin mes de 1957 es van manifestar els primers dolors a la cama?"
+    },
     "options": [
-      { "es": "Diciembre", "ca": "Desembre" },
-      { "es": "Marzo", "ca": "Març" },
-      { "es": "Julio", "ca": "Juliol" },
-      { "es": "Octubre", "ca": "Octubre" }
+      {
+        "es": "Diciembre",
+        "ca": "Desembre"
+      },
+      {
+        "es": "Marzo",
+        "ca": "Març"
+      },
+      {
+        "es": "Julio",
+        "ca": "Juliol"
+      },
+      {
+        "es": "Octubre",
+        "ca": "Octubre"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/article/2025/5/hospital20250515111417452016.jpg",
-    "imageCaption": { "es": "Contexto de enfermedad y esperanza", "ca": "Context de malaltia i esperança" }
+    "imageCaption": {
+      "es": "Contexto de enfermedad y esperanza",
+      "ca": "Context de malaltia i esperança"
+    }
   },
   {
-    "text": { "es": "¿En qué parte del cuerpo desarrolló Montse el sarcoma de Ewing?", "ca": "En quina part del cos va desenvolupar la Montse el sarcoma d'Ewing?" },
+    "text": {
+      "es": "¿En qué parte del cuerpo desarrolló Montse el sarcoma de Ewing?",
+      "ca": "En quina part del cos va desenvolupar la Montse el sarcoma d'Ewing?"
+    },
     "options": [
-      { "es": "En el fémur", "ca": "Al fèmur" },
-      { "es": "En el hombro", "ca": "A l'espatlla" },
-      { "es": "En el pulmón", "ca": "Al pulmó" },
-      { "es": "En la mano", "ca": "A la mà" }
+      {
+        "es": "En el fémur",
+        "ca": "Al fèmur"
+      },
+      {
+        "es": "En el hombro",
+        "ca": "A l'espatlla"
+      },
+      {
+        "es": "En el pulmón",
+        "ca": "Al pulmó"
+      },
+      {
+        "es": "En la mano",
+        "ca": "A la mà"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/article/2023/11/shutterstock_76816031220231103114034584666.jpg",
-    "imageCaption": { "es": "Pregunta sobre su enfermedad", "ca": "Pregunta sobre la seva malaltia" }
+    "imageCaption": {
+      "es": "Pregunta sobre su enfermedad",
+      "ca": "Pregunta sobre la seva malaltia"
+    }
   },
   {
-    "text": { "es": "¿Qué rasgo destacó durante su enfermedad?", "ca": "Quin tret va destacar durant la seva malaltia?" },
+    "text": {
+      "es": "¿Qué rasgo destacó durante su enfermedad?",
+      "ca": "Quin tret va destacar durant la seva malaltia?"
+    },
     "options": [
-      { "es": "Alegría contagiosa", "ca": "Alegria contagiosa" },
-      { "es": "Aislamiento constante", "ca": "Aïllament constant" },
-      { "es": "Silencio absoluto", "ca": "Silenci absolut" },
-      { "es": "Rechazo a las visitas", "ca": "Rebuig a les visites" }
+      {
+        "es": "Alegría contagiosa",
+        "ca": "Alegria contagiosa"
+      },
+      {
+        "es": "Aislamiento constante",
+        "ca": "Aïllament constant"
+      },
+      {
+        "es": "Silencio absoluto",
+        "ca": "Silenci absolut"
+      },
+      {
+        "es": "Rechazo a las visitas",
+        "ca": "Rebuig a les visites"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/article/2025/5/dan-counsell-Twaiqn6RjDQ-unsplash20250505105256953092.jpg",
-    "imageCaption": { "es": "Montse, amiga que ayuda en cualquier circunstancia", "ca": "La Montse, amiga que ajuda en qualsevol circumstància" }
+    "imageCaption": {
+      "es": "Montse, amiga que ayuda en cualquier circunstancia",
+      "ca": "La Montse, amiga que ajuda en qualsevol circumstància"
+    }
   },
   {
-    "text": { "es": "¿Cómo transformaba Montse el sufrimiento?", "ca": "Com transformava la Montse el sofriment?" },
+    "text": {
+      "es": "¿Cómo transformaba Montse el sufrimiento?",
+      "ca": "Com transformava la Montse el sofriment?"
+    },
     "options": [
-      { "es": "En oración y apostolado", "ca": "En oració i apostolat" },
-      { "es": "En rabia y resignación", "ca": "En ràbia i resignació" },
-      { "es": "En silencio y distancia", "ca": "En silenci i distància" },
-      { "es": "En actividad deportiva", "ca": "En activitat esportiva" }
+      {
+        "es": "En oración y apostolado",
+        "ca": "En oració i apostolat"
+      },
+      {
+        "es": "En rabia y resignación",
+        "ca": "En ràbia i resignació"
+      },
+      {
+        "es": "En silencio y distancia",
+        "ca": "En silenci i distància"
+      },
+      {
+        "es": "En actividad deportiva",
+        "ca": "En activitat esportiva"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/monseizq_20150704203027503851.jpg",
-    "imageCaption": { "es": "Anotaciones de oración en sus últimos meses", "ca": "Anotacions d'oració en els seus últims mesos" }
+    "imageCaption": {
+      "es": "Anotaciones de oración en sus últimos meses",
+      "ca": "Anotacions d'oració en els seus últims mesos"
+    }
   },
   {
-    "text": { "es": "¿En qué fecha falleció Montse Grases?", "ca": "En quina data va morir la Montse Grases?" },
+    "text": {
+      "es": "¿En qué fecha falleció Montse Grases?",
+      "ca": "En quina data va morir la Montse Grases?"
+    },
     "options": [
-      { "es": "26 de marzo de 1959", "ca": "26 de març de 1959" },
-      { "es": "10 de julio de 1959", "ca": "10 de juliol de 1959" },
-      { "es": "24 de diciembre de 1959", "ca": "24 de desembre de 1959" },
-      { "es": "17 de mayo de 2014", "ca": "17 de maig de 2014" }
+      {
+        "es": "26 de marzo de 1959",
+        "ca": "26 de març de 1959"
+      },
+      {
+        "es": "10 de julio de 1959",
+        "ca": "10 de juliol de 1959"
+      },
+      {
+        "es": "24 de diciembre de 1959",
+        "ca": "24 de desembre de 1959"
+      },
+      {
+        "es": "17 de mayo de 2014",
+        "ca": "17 de maig de 2014"
+      }
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/7672/16681204583_3f2483dfd3_b.jpg",
-    "imageCaption": { "es": "Montse en sus últimos años", "ca": "La Montse en els seus últims anys" }
+    "imageCaption": {
+      "es": "Montse en sus últimos años",
+      "ca": "La Montse en els seus últims anys"
+    }
   },
   {
-    "text": { "es": "¿Qué día litúrgico coincidió con su fallecimiento?", "ca": "Amb quin dia litúrgic va coincidir la seva mort?" },
+    "text": {
+      "es": "¿Qué día litúrgico coincidió con su fallecimiento?",
+      "ca": "Amb quin dia litúrgic va coincidir la seva mort?"
+    },
     "options": [
-      { "es": "Jueves Santo", "ca": "Dijous Sant" },
-      { "es": "Navidad", "ca": "Nadal" },
-      { "es": "Pentecostés", "ca": "Pentecosta" },
-      { "es": "Todos los Santos", "ca": "Tots Sants" }
+      {
+        "es": "Jueves Santo",
+        "ca": "Dijous Sant"
+      },
+      {
+        "es": "Navidad",
+        "ca": "Nadal"
+      },
+      {
+        "es": "Pentecostés",
+        "ca": "Pentecosta"
+      },
+      {
+        "es": "Todos los Santos",
+        "ca": "Tots Sants"
+      }
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/7726/17094008447_9d257d2cfe_b.jpg",
-    "imageCaption": { "es": "Recuerdo de su entrega cristiana", "ca": "Record del seu lliurament cristià" }
+    "imageCaption": {
+      "es": "Recuerdo de su entrega cristiana",
+      "ca": "Record del seu lliurament cristià"
+    }
   },
   {
-    "text": { "es": "¿Qué edad tenía al fallecer?", "ca": "Quina edat tenia quan va morir?" },
+    "text": {
+      "es": "¿Qué edad tenía al fallecer?",
+      "ca": "Quina edat tenia quan va morir?"
+    },
     "options": [
-      { "es": "Poco menos de 18 años", "ca": "Poc menys de 18 anys" },
-      { "es": "21 años", "ca": "21 anys" },
-      { "es": "16 años exactos", "ca": "16 anys exactes" },
-      { "es": "25 años", "ca": "25 anys" }
+      {
+        "es": "Poco menos de 18 años",
+        "ca": "Poc menys de 18 anys"
+      },
+      {
+        "es": "21 años",
+        "ca": "21 anys"
+      },
+      {
+        "es": "16 años exactos",
+        "ca": "16 anys exactes"
+      },
+      {
+        "es": "25 años",
+        "ca": "25 anys"
+      }
     ],
     "answer": 0,
     "image": "https://live.staticflickr.com/7673/16681206643_40454c4a4c_b.jpg",
-    "imageCaption": { "es": "Montse, en plena juventud", "ca": "La Montse, en plena joventut" }
+    "imageCaption": {
+      "es": "Montse, en plena juventud",
+      "ca": "La Montse, en plena joventut"
+    }
   },
   {
-    "text": { "es": "¿Dónde fue enterrada cuando falleció Montse?", "ca": "On va ser enterrada quan va morir la Montse?" },
+    "text": {
+      "es": "¿Dónde fue enterrada cuando falleció Montse?",
+      "ca": "On va ser enterrada quan va morir la Montse?"
+    },
     "options": [
-      { "es": "En el cementerio del Sudoeste de Barcelona", "ca": "Al cementiri del Sud-oest de Barcelona" },
-      { "es": "En Montserrat", "ca": "A Montserrat" },
-      { "es": "En la catedral de Barcelona", "ca": "A la catedral de Barcelona" },
-      { "es": "En Madrid", "ca": "A Madrid" }
+      {
+        "es": "En el cementerio del Sudoeste de Barcelona",
+        "ca": "Al cementiri del Sud-oest de Barcelona"
+      },
+      {
+        "es": "En Montserrat",
+        "ca": "A Montserrat"
+      },
+      {
+        "es": "En la catedral de Barcelona",
+        "ca": "A la catedral de Barcelona"
+      },
+      {
+        "es": "En Madrid",
+        "ca": "A Madrid"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/montse-grases-oratorio-bonaigua_20210713163207443753.jpg",
-    "imageCaption": { "es": "Memoria de Montse en Barcelona", "ca": "Memòria de la Montse a Barcelona" }
+    "imageCaption": {
+      "es": "Memoria de Montse en Barcelona",
+      "ca": "Memòria de la Montse a Barcelona"
+    }
   },
   {
-    "text": { "es": "¿Dónde reposan sus restos desde 1994?", "ca": "On reposen les seves restes des de 1994?" },
+    "text": {
+      "es": "¿Dónde reposan sus restos desde 1994?",
+      "ca": "On reposen les seves restes des de 1994?"
+    },
     "options": [
-      { "es": "Cripta del Oratorio de Santa María de Bonaigua", "ca": "Cripta de l'Oratori de Santa Maria de Bonaigua" },
-      { "es": "Basílica de la Sagrada Familia", "ca": "Basílica de la Sagrada Família" },
-      { "es": "Monasterio de Montserrat", "ca": "Monestir de Montserrat" },
-      { "es": "Catedral de Barcelona", "ca": "Catedral de Barcelona" }
+      {
+        "es": "Cripta del Oratorio de Santa María de Bonaigua",
+        "ca": "Cripta de l'Oratori de Santa Maria de Bonaigua"
+      },
+      {
+        "es": "Basílica de la Sagrada Familia",
+        "ca": "Basílica de la Sagrada Família"
+      },
+      {
+        "es": "Monasterio de Montserrat",
+        "ca": "Monestir de Montserrat"
+      },
+      {
+        "es": "Catedral de Barcelona",
+        "ca": "Catedral de Barcelona"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/montse-grases-oratorio-bonaigua_20210713163207443753.jpg",
-    "imageCaption": { "es": "Oratorio de Santa Maria de Bonaigua", "ca": "Oratori de Santa Maria de Bonaigua" }
+    "imageCaption": {
+      "es": "Oratorio de Santa Maria de Bonaigua",
+      "ca": "Oratori de Santa Maria de Bonaigua"
+    }
   },
   {
-    "text": { "es": "¿Qué Papa la declaró venerable en 2016?", "ca": "Quin Papa la va declarar venerable el 2016?" },
+    "text": {
+      "es": "¿Qué Papa la declaró venerable en 2016?",
+      "ca": "Quin Papa la va declarar venerable el 2016?"
+    },
     "options": [
-      { "es": "Francisco", "ca": "Francesc" },
-      { "es": "Benedicto XVI", "ca": "Benet XVI" },
-      { "es": "Juan Pablo II", "ca": "Joan Pau II" },
-      { "es": "Pablo VI", "ca": "Pau VI" }
+      {
+        "es": "Francisco",
+        "ca": "Francesc"
+      },
+      {
+        "es": "Benedicto XVI",
+        "ca": "Benet XVI"
+      },
+      {
+        "es": "Juan Pablo II",
+        "ca": "Joan Pau II"
+      },
+      {
+        "es": "Pablo VI",
+        "ca": "Pau VI"
+      }
     ],
     "answer": 0,
     "image": "https://s3-eu-west-1.amazonaws.com/images-opus-dei/image/Montse-Grases_venerable-Papa-Francisco-Opus-Dei_20160427103840151384.jpg",
-    "imageCaption": { "es": "Decreto de venerable en 2016", "ca": "Decret de venerable l'any 2016" }
+    "imageCaption": {
+      "es": "Decreto de venerable en 2016",
+      "ca": "Decret de venerable l'any 2016"
+    }
   }
 ]
