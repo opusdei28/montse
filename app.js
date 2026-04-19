@@ -373,7 +373,7 @@ function buildQuestionPayload(existingQuestion = null) {
     options,
     answer: options[answerIndex],
     image: existingQuestion?.image || "",
-    imageCaption: imageCaptionInput.value.trim() || "Imagen de referencia de opusdei.org",
+    imageCaption: imageCaptionInput.value.trim(),
   };
 }
 
