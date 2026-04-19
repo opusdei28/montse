@@ -76,8 +76,11 @@ body {
 }
 
 .language-flag {
-  font-size: 1.1rem;
-  line-height: 1;
+  width: 22px;
+  height: 15px;
+  border-radius: 2px;
+  border: 1px solid rgba(33, 50, 73, 0.12);
+  object-fit: cover;
 }
 
 .screen {
