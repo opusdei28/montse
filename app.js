@@ -634,7 +634,7 @@ function downloadQuestionsJson() {
 
 function renderAdminState() {
   assetPanel.hidden = !isAdminMode;
-  adminStatus.textContent = isAdminMode ? t("adminActive") : t("adminHidden");
+  adminStatus.textContent = isAdminMode ? t("adminActive") : "";
 }
 
 function getResultTitle(ratio) {

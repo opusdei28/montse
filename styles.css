@@ -103,7 +103,8 @@ h2 {
 }
 
 h1 {
-  font-size: clamp(2rem, 6vw, 3.1rem);
+  font-size: clamp(1.1rem, 5.5vw, 3.1rem);
+  white-space: nowrap;
 }
 
 h2 {
@@ -224,6 +225,16 @@ input[type="file"] {
   background: rgba(33, 50, 73, 0.08);
   color: var(--ink);
   border: 1px solid var(--card-border);
+}
+
+.btn-admin-small {
+  background: rgba(33, 50, 73, 0.06);
+  color: var(--muted);
+  border: 1px solid var(--card-border);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 999px;
 }
 
 .source-note {
