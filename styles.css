@@ -47,23 +47,27 @@ body {
   align-items: center;
   gap: 10px;
   margin-bottom: 18px;
+  flex-wrap: nowrap;
 }
 
 .language-switch {
   display: flex;
   gap: 10px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .language-option {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 12px;
+  gap: 6px;
+  padding: 5px 10px;
   border: 1px solid var(--card-border);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.9);
   cursor: pointer;
+  font-size: 0.72rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .language-option input {
@@ -76,8 +80,8 @@ body {
 }
 
 .language-flag {
-  width: 22px;
-  height: 15px;
+  width: 18px;
+  height: 12px;
   border-radius: 2px;
   border: 1px solid rgba(33, 50, 73, 0.12);
   object-fit: cover;
@@ -503,9 +507,15 @@ input[type="file"] {
   }
 
   .app-topbar {
-    justify-content: stretch;
-    align-items: stretch;
-    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    overflow-x: auto;
+  }
+
+  #language-label {
+    display: none;
   }
 
   .editor-grid {

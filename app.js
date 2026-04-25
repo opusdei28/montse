@@ -385,7 +385,7 @@ function refreshQuestionBankStatus() {
     return;
   }
 
-  loadStatus.textContent = t("loadedQuestions", { count: questionBank.length, required: QUESTIONS_PER_GAME });
+  loadStatus.textContent = "";
   loadStatus.style.color = "#76f3b8";
 }
 
